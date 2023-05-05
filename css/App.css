@@ -1,0 +1,20 @@
+/* CSS for desktop screens */
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .box {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  /* CSS for mobile screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    .box {
+      padding: 10px;
+    }
+  }
