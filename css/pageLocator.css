@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Set the size of the map container */
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+  /* Styles for the address container */
+  .address-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+
+  /* Styles for the address items */
+  .address-item {
+    margin-bottom: 10px;
+  }
+
+  /* Responsive styles for different screen sizes */
+  @media screen and (max-width: 767px) {
+    /* Adjust map height and address container width for smaller screens */
+    #map {
+      height: 300px;
+    }
+    .address-container {
+      max-width: 300px;
+      padding: 10px;
+    }
+  }

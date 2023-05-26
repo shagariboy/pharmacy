@@ -1,3 +1,11 @@
+.navbar-nav {
+  justify-content: space-between;
+}
+#form-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
 .container input[type="text"] {
  width: 400px;
  border-radius: 5px;
@@ -38,5 +46,27 @@
   .message-content p {
     font-size: 18px;
     margin-bottom: 20px;
+
   }
   
+
+  #whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 400px;
+    z-index: 999;
+    animation: pop 0.5s infinite alternate;
+  }
+
+   /* Keyframes for the animation */
+   @keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
